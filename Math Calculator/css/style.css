@@ -1,0 +1,55 @@
+
+body{
+    background: url("../images/background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    max-width: 400px;
+    margin: 20vh auto 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+} 
+
+.button:hover{
+    background-color: #323330;
+    color: white;
+
+}
+
+#equal{
+    background-color: rgb(58, 58, 233);
+    color: #fff;
+}
